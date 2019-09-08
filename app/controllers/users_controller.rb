@@ -9,8 +9,11 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+<<<<<<< HEAD
     @microposts = @user.microposts.paginate(page: params[:page])
     
+=======
+>>>>>>> account-activation
   end
 
   def new
