@@ -44,13 +44,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "localhost", port: 3000 }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-   user_name: "hopnd98@gmail.com",
-   password: "123456",
-   domain: "localhost:3000",
-   address: "smtp.gmail.com",
-   port: "587",
-   authentication: :plain,
-   enable_starttls_auto: true
+   :user_name => "nguyenduchop112233@gmail.com",
+   :password  => "Duchop1998",
+   :domain    => "localhost:3000",
+   :address   =>"smtp.gmail.com",
+   :port      =>"587",
+   :authentication => :plain,
+   :enable_starttls_auto => true
  }
 
   # Print deprecation notices to the Rails logger.
